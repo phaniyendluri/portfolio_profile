@@ -230,6 +230,13 @@ section{
     gap: 1rem;
 }
 
+#content {
+    position: relative;
+}
+#content1 {
+    position: relative;
+}
+
 /* About Section */
 
 #about {
@@ -251,9 +258,14 @@ section{
 .about.pic{
     border-radius: 2rem;
 }
-.arrow {
+#content img {
     position: absolute;
-    right: 5rem;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+#content1 img {
+    position: absolute;
+    right: -14rem;
     bottom: 2.5rem;
 }
 .details-container {
@@ -304,5 +316,70 @@ section{
 article .icon {
     cursor: default;
 }
+#Projects {
+    position: relative;
+}
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250,250,250);
+}
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;  
+}
+.project-title {
+    margin: 1rem;
+    color:black;
+}
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
 
+/* Contact */
+
+#Contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.Contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250,250,250);
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+.Contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.Contact-info-container p {
+    font-size: larger;
+}
+.Contact-icon {
+    cursor: default;
+}
+.email-icon {
+    height: 2.5rem;
+}
+
+/* Footer */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p {
+    text-align: center;
+}
 
